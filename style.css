@@ -376,13 +376,13 @@ a {
 ========================================================= */
 
 .project-showcase {
-    display: grid;
-    grid-template-columns: 1.25fr 0.75fr;
-    align-items: stretch;
-
     background: white;
-    border-radius: 22px;
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
     overflow: hidden;
+
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
 }
 
 .project-copy {
@@ -422,57 +422,37 @@ a {
     font-size: 12px;
     margin-top: 7px;
 }
+
 .project-thumbnail {
-    background: #0d1117;
-    min-height: 520px;
-    height: 100%;
+    position: relative;
+    min-height: 420px;
+    background: #edf2f9;
     overflow: hidden;
-
-    display: flex;
-    flex-direction: column;
-
-    border-radius: 0 22px 22px 0;
-}
-
-.thumbnail-preview {
-    flex: 1;
-    min-height: 0;
-    overflow: hidden;
-    display: block;
 }
 
 .project-thumbnail img {
     width: 100%;
     height: 100%;
-    display: block;
-
+    min-height: 420px;
     object-fit: cover;
     object-position: top center;
+    display: block;
 }
 
-.thumbnail-footer {
-    background: #0d1117;
-    padding: 15px 18px 17px;
+.thumbnail-caption {
+    position: absolute;
+    bottom: 18px;
+    left: 18px;
 
-    display: flex;
-    flex-direction: column;
-    gap: 7px;
+    padding: 8px 12px;
+    border-radius: 7px;
 
-    color: #cbd5e1;
-    font-size: 12px;
-    line-height: 1.4;
+    color: white;
+    background: rgba(7,20,38,0.86);
+
+    font-size: 11px;
 }
 
-.full-image-link {
-    color: #60a5fa;
-    text-decoration: none;
-    font-weight: 600;
-    width: fit-content;
-}
-
-.full-image-link:hover {
-    text-decoration: underline;
-}
 
 /* =========================================================
    RESEARCH
@@ -1196,17 +1176,4 @@ footer {
     font-size: 13px;
     color: var(--muted);
     line-height: 1.6;
-}
-
-@media (max-width: 800px) {
-
-    .project-showcase {
-        grid-template-columns: 1fr;
-    }
-
-    .project-thumbnail {
-        min-height: 420px;
-        border-radius: 0 0 22px 22px;
-    }
-
 }
