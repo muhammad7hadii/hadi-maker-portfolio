@@ -423,27 +423,38 @@ a {
     margin-top: 7px;
 }
 
-.project-thumbnail {
-    max-width: 380px;
-    width: 100%;
-    margin: 0 auto;
-}
+<div class="project-thumbnail">
 
-.project-thumbnail img {
-    width: 100%;
-    height: auto;
-    display: block;
-    object-fit: contain;
-    border-radius: 14px;
-}
+    <a
+        href="app-input.png"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="thumbnail-preview"
+    >
+        <img
+            src="app-input.png"
+            alt="Flight Fuel and Emission Calculator input interface showing route, aircraft and passenger selections"
+        >
+    </a>
 
-.thumbnail-caption {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 12px;
-    color: var(--muted);
-}
+    <div class="thumbnail-footer">
 
+        <span>
+            Flight Fuel & Emission Calculator — input interface
+        </span>
+
+        <a
+            href="app-input.png"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="full-image-link"
+        >
+            Open Full Screenshot ↗
+        </a>
+
+    </div>
+
+</div>
 
 /* =========================================================
    RESEARCH
