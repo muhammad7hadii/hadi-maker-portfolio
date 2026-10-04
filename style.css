@@ -376,13 +376,13 @@ a {
 ========================================================= */
 
 .project-showcase {
-    background: white;
-    border-radius: var(--radius);
-    box-shadow: var(--shadow);
-    overflow: hidden;
-
     display: grid;
-    grid-template-columns: 1.1fr 0.9fr;
+    grid-template-columns: 1.25fr 0.75fr;
+    align-items: stretch;
+
+    background: white;
+    border-radius: 22px;
+    overflow: hidden;
 }
 
 .project-copy {
