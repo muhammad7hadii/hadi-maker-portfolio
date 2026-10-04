@@ -1197,3 +1197,16 @@ footer {
     color: var(--muted);
     line-height: 1.6;
 }
+
+@media (max-width: 800px) {
+
+    .project-showcase {
+        grid-template-columns: 1fr;
+    }
+
+    .project-thumbnail {
+        min-height: 420px;
+        border-radius: 0 0 22px 22px;
+    }
+
+}
