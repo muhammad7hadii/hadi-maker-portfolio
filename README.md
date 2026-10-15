@@ -33,9 +33,9 @@ Current project coverage includes:
 
 ## Research & Publication
 
-My aviation project developed alongside a ten-week research project through the **RISE Research Scholar Programme**.
+My aviation project developed alongside a ten-week independent research project into aviation emissions and computational modelling.
 
-I worked under one-on-one mentorship from **Yuiko Ichikawa**, who holds a **PhD in Meteorology from the University of Hokkaido** and an **MPhil in Data Intensive Science from the University of Cambridge**.
+I worked under the mentorship of **Yash Mundada**, who studied **Computer Science at BITS Pilani** and previously worked in software engineering at **Meta, Amazon, and HubSpot**.
 
 ### *Regression-Based Modeling of Flight Emissions and Per-Passenger Climate Impact*
 
