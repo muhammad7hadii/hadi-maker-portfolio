@@ -126,6 +126,5 @@ hadi-maker-portfolio/
 **Muhammad Hadi**
 
 - **Email:** [muhammad7hadii@gmail.com](mailto:muhammad7hadii@gmail.com)
-- **LinkedIn:** [Muhammad Hadi](https://www.linkedin.com/in/muhammad-hadi-9a4661386/)
 - **GitHub:** [@muhammad7hadii](https://github.com/muhammad7hadii)
 - **Portfolio:** [muhammad7hadii.github.io/hadi-maker-portfolio](https://muhammad7hadii.github.io/hadi-maker-portfolio/)
