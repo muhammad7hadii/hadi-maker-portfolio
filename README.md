@@ -20,7 +20,7 @@ Current project coverage includes:
 
 - 31 international airports
 - 4 commercial airlines
-- 25+ aircraft
+- 25 aircraft
 - Route-distance calculations
 - Fuel and emissions estimation
 - Per-passenger impact
