@@ -35,8 +35,20 @@ Current project coverage includes:
 
 My aviation project developed alongside a ten-week independent research project into aviation emissions and computational modelling.
 
-I worked under the mentorship of **Yash Mundada**, who studied **Computer Science at BITS Pilani** and previously worked in software engineering at **Meta, Amazon, and HubSpot**.
+My aviation project developed alongside a ten-week independent research
+project into aviation emissions and computational modelling.
 
+I conducted the research under the mentorship of **Yash Mundada**, who
+studied **Computer Science at BITS Pilani** and previously worked in
+software engineering at **Meta, Amazon, and HubSpot**, and **Dr. Yuiko
+Ichikawa**, a weather and climate data scientist affiliated with the
+**University of Oxford's Environmental Change Institute** who completed
+her doctorate at **Hokkaido University**.
+
+The research examined aviation-emission estimation, ICAO emissions
+factors, QAR, ADS-B and simulated-flight-data methodologies,
+regression-based fuel-consumption approaches, and the limitations of
+publicly accessible aviation datasets.
 ### *Regression-Based Modeling of Flight Emissions and Per-Passenger Climate Impact*
 
 **Muhammad Hadi — Sole Author**  
